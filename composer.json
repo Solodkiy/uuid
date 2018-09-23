@@ -1,0 +1,21 @@
+{
+    "name": "solodkiy/uuid",
+    "description": "Simple incremented uuid objects",
+    "type": "library",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Solodkiy",
+            "email": "alexey@solodkiy.by"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Solodkiy\\Uuid\\": "src/"
+        }
+    }
+}
